@@ -13,7 +13,7 @@ Requests are of the form http://localhost:8081/location-of-image-stack-relative-
 Example request: http://localhost:8081/demo_data[3]?downsample=true \
 
 ### JSON Response
-Properties: /
+Properties: 
 - downsampled : The downsampling ratio. 0 if no downsampling has been done. E.g. If ratio is 4 then the block size is 16
 - item-type   : The type of item received. In our case, it will always be "time-series"
 - object-type : "h5_object"
