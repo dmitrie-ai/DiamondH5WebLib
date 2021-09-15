@@ -5,7 +5,7 @@ This prototype was created with h5web/lib(https://www.npmjs.com/package/@h5web/l
 
 
 ## Server
-Simple server made with flask.\
+Simple REST server made with flask that returns JSON responses.\
 Made specifically for sending images from an image stack. Option is available to downsample and/or compress(using gzip) the response via the variables at the top of main.py. Downsampling block size can also be set via the variable at the top of main.py
 
 ### HTTP GET Request 
